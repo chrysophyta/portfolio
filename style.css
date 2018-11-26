@@ -1,7 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  /* outline: 1px red solid; */
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: 16px;
+  font-family: Lato;
 }
 section {
   height: 100vh;
+}
+nav {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #303030;
+}
+nav ul {
+  display: flex;
+  padding-right: 3rem;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0.5rem;
+}
+nav a {
+  color: white;
 }
