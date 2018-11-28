@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+:root {
+  --dark-gray: #303030;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,15 +15,13 @@ body {
   font-size: 16px;
   font-family: Lato;
 }
-section {
-  height: 100vh;
-}
+
 nav {
   height: 3rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #303030;
+  background: var(--dark-gray);
 }
 nav ul {
   display: flex;
@@ -33,4 +34,53 @@ nav ul li {
 }
 nav a {
   color: white;
+}
+
+section {
+  height: 100vh;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+/* ============== Home Section ============== */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-gray);
+}
+.my-name {
+  font-size: 3rem;
+  color: white;
+}
+
+/* ============== About Section ============== */
+.about {
+}
+
+.my-photo {
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kitten-playing-with-toy-mouse-royalty-free-image-590055188-1542816918.jpg?crop=1.00xw:0.758xh;0,0.132xh&resize=480:*');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.about-content {
+  height: 100%;
+  color: white;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-content p {
+  margin: 3rem;
 }
