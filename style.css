@@ -84,3 +84,21 @@ section {
 .about-content p {
   margin: 3rem;
 }
+
+/* ============== Work Section ============== */
+
+.works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dark-gray);
+}
+.work-wrapper {
+  display: flex;
+}
+.work {
+  width: 100px;
+  height: 100px;
+  background: white;
+  margin: 2rem;
+}
