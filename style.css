@@ -102,3 +102,16 @@ section {
   background: white;
   margin: 2rem;
 }
+.social-media-icon {
+  height: 30px;
+  width: 30px;
+}
+.facebook {
+  background-image: url('svg/facebook.svg');
+}
+.twitter {
+  background-image: url('svg/twitter.svg');
+}
+.github {
+  background-image: url('svg/github.svg');
+}
