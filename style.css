@@ -102,9 +102,29 @@ section {
   background: white;
   margin: 2rem;
 }
+
+/* ============== Contact Section ============== */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-info {
+  margin: 1rem;
+}
+.v-line {
+  height: 3rem;
+  width: 1px;
+  border-right: 1px solid black;
+}
+.social-media-link {
+  display: flex;
+  margin: 1rem;
+}
 .social-media-icon {
   height: 30px;
   width: 30px;
+  margin-right: 1rem;
 }
 .facebook {
   background-image: url('svg/facebook.svg');
