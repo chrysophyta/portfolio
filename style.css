@@ -2,7 +2,7 @@
 :root {
   --dark-gray: #303030;
   --light-gray: #aaaaaa;
-  --white: #ffffff;
+  --white: #eeeeee;
 }
 * {
   box-sizing: border-box;
@@ -147,6 +147,9 @@ section {
 }
 .contact-info {
   margin: 1rem;
+}
+.resume {
+  padding-top: 1rem;
 }
 .v-line {
   height: 3rem;
