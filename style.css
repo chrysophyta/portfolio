@@ -76,7 +76,7 @@ section {
 }
 
 .my-photo {
-  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kitten-playing-with-toy-mouse-royalty-free-image-590055188-1542816918.jpg?crop=1.00xw:0.758xh;0,0.132xh&resize=480:*');
+  background-image: url('https://images.unsplash.com/photo-1520717214176-885c3b3b6ca5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -109,7 +109,7 @@ section {
 .work {
   width: 100px;
   height: 100px;
-  background: var(--light-gray);
+  background-size: cover;
   margin: 2rem;
   display: flex;
   align-items: center;
@@ -123,6 +123,15 @@ section {
 }
 .work:hover .work-title {
   opacity: 1;
+}
+.work1 {
+  background-image: url('https://images.unsplash.com/photo-1548382340-e7280a94e3ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80');
+}
+.work2 {
+  background-image: url('https://images.unsplash.com/photo-1548413976-492b671eb54a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80');
+}
+.work3 {
+  background-image: url('https://images.unsplash.com/photo-1548357155-ad6bba8955ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80');
 }
 
 /* ============== Contact Section ============== */
